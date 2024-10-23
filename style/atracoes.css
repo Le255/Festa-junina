@@ -1,0 +1,132 @@
+body{
+    background-image: linear-gradient( to right, #393636, #544c4c, #000);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.brincadeiras{
+    color: red;
+    font-size: 35px;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+
+.brincadeiras2{
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 150px;
+    border: 15px double red;
+    padding: 50px;
+    margin: 20px;
+}
+
+.bebidas{
+    color: rgb(197, 132, 12);
+   font-size: 35px;
+   position: absolute;
+   top: 0%;
+   left: 83%;
+}
+
+.bebidas2{
+    color: rgb(138, 92, 7);
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    width: 150px;
+    border: 15px double rgb(138, 92, 7);
+    padding: 50px;
+    margin: 20px;
+}
+
+.comidas{
+    color: rgb(172, 93, 93);
+    font-size: 35px;
+    position: absolute;
+    top: 65%;
+    left: 78%;
+}
+
+.comidas2{
+    color: rgb(172, 84, 84);
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    width: 150px;
+    border: 15px double rgb(172, 84, 84);
+    padding: 50px;
+    margin: 20px;
+}
+
+.ambiente{
+    color: rgb(230, 81, 173);
+    font-size: 35px;
+    position: absolute;
+    top: 90%;
+}
+
+.ambiente2{
+    color: rgb(186, 80, 145);
+    font-size: 25px;
+    position: absolute;
+    top: 100%;
+    width: 80px;
+    height: 5%;
+    border: 10px double rgb(186, 80, 145);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.atracoes{
+    color: hotpink;
+    font-size: 35px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.atracoes2{
+    color: hotpink;
+    font-size: 25px;
+    position: absolute;
+    width: 190px;
+    border: 10px double hotpink;
+    padding: 30px;
+    margin: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.diver{
+    color: rgb(255, 0, 128);
+}
+
+.voltar{
+    background-image: linear-gradient(to right, rgb(236, 236, 170), rgb(243, 141, 141), rgb(242, 200, 121));
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 20px;
+    display: flex;
+    transform: background-color 0.3s ease;
+    position: absolute;
+    top: 125%;
+    left: 20px; 
+    
+}
+
+.voltar:hover{
+    background-image: linear-gradient(to right,  rgb(232, 232, 128), rgb(252, 115, 115), rgb(238, 177, 65));
+}

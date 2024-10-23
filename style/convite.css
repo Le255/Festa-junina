@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/Fundo.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.texto{
+  width: 200px;
+  height: 200px;
+  border-style: double;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.negrito{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.etec{
+    color: red;
+}
+    
+.ct{
+    color: red;
+    font-size: 25px;
+}
+
+.proxima{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: bisque;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.proxima:hover{
+    background-color: rgb(243, 185, 115);
+}
+
+.instagram{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    background-image: linear-gradient(to right, rgb(240, 189, 240), rgb(209, 114, 209), rgb(197, 87, 197));
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 83%;
+    top: 90%;
+}
+
+.instagram:hover{
+background-image: linear-gradient(to right, rgb(242, 169, 242), rgb(191, 74, 191), rgb(227, 51, 227));
+}
